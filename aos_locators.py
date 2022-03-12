@@ -7,6 +7,8 @@ aos_home_page_title = 'AdvantageDEMO'
 aos_login_page_url = 'https://advantageonlineshopping.com/#/'
 aos_login_page_title = '${nbsp}Advantage Shopping :Log in to the site'
 aos_create_new_user = 'https://advantageonlineshopping.com/#/register'
+speakers_url = 'https://advantageonlineshopping.com/#/category/Speakers/4'
+
 # admin_username = 'first_name'
 # admin_password = 'last_name'
 # aos_dashboard_url =
