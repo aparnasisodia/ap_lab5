@@ -8,9 +8,9 @@ import datetime
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select # <-- add this import for drop down lists
 from selenium.webdriver.common.keys import Keys
-from faker import Faker
+# from faker import Faker
 
-fake = Faker(locale='en_CA')
+# fake = Faker(locale='en_CA')
 
 print('----------------------------******--------------------------------------------------')
 print('---------------------------*****---------------------------------------------------------')
