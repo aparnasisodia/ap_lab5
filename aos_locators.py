@@ -3,9 +3,9 @@ fake = Faker(locale='en_CA')
 #---------------------------------------------------------
 app = 'Advantage online shopping'
 aos_url = 'https://advantageonlineshopping.com/#/'
-aos_home_page_title = 'AdvantageDEMO'
-aos_login_page_url = 'https://advantageonlineshopping.com/#/'
-aos_login_page_title = '${nbsp}Advantage Shopping :Log in to the site'
+aos_home_page_title = '\xa0Advantage Shopping'
+# aos_login_page_url = 'https://advantageonlineshopping.com/#/'
+# aos_login_page_title = '${nbsp}Advantage Shopping :Log in to the site'
 aos_create_new_user = 'https://advantageonlineshopping.com/#/register'
 speakers_url = 'https://advantageonlineshopping.com/#/category/Speakers/4'
 tablet_url = 'https://advantageonlineshopping.com/#/category/Tablets/3'
