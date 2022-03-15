@@ -1,7 +1,7 @@
 import sys
 from selenium import webdriver # import selenium to the file
 import aos_locators as locators
-from selenium.webdriver.chrome.service import service
+from selenium.webdriver.chrome.service import Service
 import time
 from time import sleep
 import datetime
@@ -16,6 +16,10 @@ print('----------------------------******---------------------------------------
 print('---------------------------*****---------------------------------------------------------')
 # ---------------------------------------------------------------------------------
 driver = webdriver.Chrome('/Users/owner/Desktop/pythonProject/venv/chromedriver')
+# driver = webdriver.Chrome(executable_path='/Users/owner/Desktop/pythonProject/venv/chromedriver')
+
+# s = Service(executable_path = '/Users/owner/Desktop/pythonProject/venv/chromedriver.exe')
+# driver = webdriver.Chrome("/Users/owner/Desktop/pythonProject/chromedriver")
 
 
 def setup():
@@ -65,7 +69,7 @@ def tearDown():
 
 # Create New Account - using Faker library fake data
 def create_new_user():
-    driver.find_element(By.ID, 'menuUserLink').click()
+    driver.find_element(By.ID, 'menuUser').click()
     time.sleep(2)
     driver.find_element(By.LINK_TEXT , 'CREATE NEW ACCOUNT').click()
     time.sleep(2)
